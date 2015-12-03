@@ -1,6 +1,7 @@
+#ifndef _QUEUETEMP_H
+#define _QUEUETEMP_H
+
 #include <iostream>
-
-
 
 template <class Tnode> class Queuenodetemp
 {
@@ -78,4 +79,5 @@ public:
 		charval = charparam;
 	}
 };
+#endif
 

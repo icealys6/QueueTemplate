@@ -50,7 +50,7 @@ public:
  void display()
 	{
 		Queuenodetemp <Tnode> *nodeptr = head;
-		while (nodeptr->next)
+		while (nodeptr)
 		{
 			std::cout << nodeptr->value;
 			nodeptr = nodeptr->next;
